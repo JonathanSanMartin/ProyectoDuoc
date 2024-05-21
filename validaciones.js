@@ -32,8 +32,8 @@ $(document).ready(function(){
             alert("Por favor, indique su edad.");
             return;
         }
-        if(edad < 12 || edad > 100){
-            alert("La edad debe estar entre 12 y 100 años");
+        if(edad < 12 || edad > 80){
+            alert("La edad debe estar entre 12 y 80 años");
             return;
         }
 
